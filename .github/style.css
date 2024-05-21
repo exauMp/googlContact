@@ -1,0 +1,204 @@
+
+body{
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+/* l'en tete */
+     header{
+    display:inline flex;
+    justify-content:center;
+    text-decoration: none;
+  }
+/*  pour le menu */
+       .header__contacts{
+         font-size: 10px;
+       }
+       .header__barre{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 10px;
+          align-items: end;
+          }
+    
+      
+      .enregistre-contact{
+        display: none;
+        background-color:white ;
+        margin: 15px;
+        border-radius: 20px;
+        width: 100%;
+        height: 55rem;
+      }
+/* la première section */
+      .contenaire__liste{
+        background-color: hsl#F6F8FC solid;   /* (0, 64%, 24%) */
+        display: flex;
+        justify-content: space-between;
+        margin-right:20px ;
+        flex:30px ;
+      }
+      .bouton__libelle{
+        display: flex;
+        justify-content: space-between;
+      }
+      .creer{
+        border-radius:18px;
+        background-color:rgb(201, 230, 255);
+        width: 10rem;
+        height: 50px;
+        margin-top: 30px;
+        font-size: 14px;
+      }
+      .contact{
+        border-radius: 18px;
+        border: none;
+        background-color:rgb(201, 230, 255);
+        width: 15rem;
+        height: 50px;
+        margin-top: 20px;
+        font-size: 16px;
+        text-align: left;
+      }
+      .blocfréquence{
+        margin-bottom: 50px;
+        font-size: 16px;
+      }
+      /* la Deudième section */
+      .contenaire__tableau{     /* ici ce pour le coter tableau */
+        background-color: #FFFFFF; /*#FFFFFF*/
+        border-radius: 18px;
+        border-left:5px;
+        margin-left:0rem;
+        
+      }
+      .my-class{
+        display: flex;
+        flex-direction: row;
+        gap:5rem;
+      }
+      .hr {
+        margin-top: 5px; /* Marge supérieure de la ligne horizontale */
+        border: 1px solid #C4C4C5; /* Couleur et épaisseur de la ligne */
+      }
+      .Enregistrements{
+        display: none;
+      }
+      .enregistre-contact{
+        display: none;
+        background-color:white ;
+        margin: 15px;
+        border-radius: 20px;
+        width: 100%;
+        height: 55rem;
+     }
+      .new__enregistrercontact{
+        display:flex;
+      }
+      .bouton{
+        border-radius: 20px;
+        background-color: rgb(224, 224, 224);
+        border: none;
+        padding: 10px;
+        margin-left: 400px;
+      }
+      .Btn_libelle{
+        border-radius: 8px;
+        border: 1px;
+      }
+      .prenom{
+        margin: 6px;
+        padding: 0px;
+        height: 30px;
+        padding: var(--padding);
+        }
+        .Nom{
+          padding: 9px;
+          display: flex;
+          flex-direction: column;
+         }
+         .Fonction{
+          margin: 6px;
+          padding: 0px;
+          height: 30px;
+          width: 300px;
+          border-radius: 6px;
+          padding: var(--padding);
+          }
+          .E-mail{
+            height: 30px;
+            margin: 5px;
+            }
+         .Fonction-Entreprise{
+          margin: 5px;
+          padding: 0px;
+          height: 30px;
+          width: 300px;
+          border-radius: 6px;
+          padding: var(--padding);
+          }
+         .ajouter{
+           margin: 6px;
+           padding: 0px;
+           height: 30px;
+           width: 300px;
+           border-radius: 100px;
+           }
+           .picture{
+           width: 200px;
+           height: auto;
+           margin-left: 30px;
+           }
+
+           .plus{
+           position: absolute;
+           top: 320px;
+           left: 375px;
+           width: 45px;
+           height: 45px;
+           background-color: blue;
+           border-radius: 100%;
+           color: white;
+           font-size: 20px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           border: solid white 4px;
+            }
+
+           .logo__enregistrecontact{
+             padding: 20px;
+             margin-top: 10px;
+             margin-left: 20px;
+            }
+             .information{
+             padding: 9px;
+             margin-top: 80px;
+             margin-left: 5px;
+             display: flex;
+             flex-direction: column;
+             }
+
+             .ajouter{
+             border-radius: 20px;
+             background-color: #85C1E9 ;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+             border: solid #85929E 1px;
+             }
+ /* }.nom{
+ margin: 5px;
+ padding: 0px;
+ height: 30px;
+ width: 300px;
+ border-radius: 6px;
+ padding: var(--padding);
+ .entreprise{
+ margin: 5px;
+ padding: 0px;
+ height: 30px;
+ width: 300px;
+ border-radius: 6px;
+ padding: var(--padding);
+ }
